@@ -1,13 +1,11 @@
 public class ListaEncadeada {
-    public class Lista<T>{
-        private No<T> inicio;
+    private No<T> inicio;
 
-        public void inserirNoInicio(T valor){
-            if (inicio == null){
-                No<T>{
-
-                }
-            }
+    public void inserirNoInicio(T valor){
+        No<T> novoNo = new No<>(valor);
+        if (inicio == null){
+            novoNo.getProximo(this.inicio);
         }
+        this.inicio = novoNo;
     }
 }
