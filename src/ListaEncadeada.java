@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class ListaEncadeada <T>{
     private No<T> inicio;
 
@@ -35,7 +34,7 @@ public class ListaEncadeada <T>{
         }
         for (No<T> atual = this.inicio; atual != null; atual = atual.getProximo()){
             System.out.println(atual.getElemento());
-=======
+
 public class ListaEncadeada {
     private No<T> inicio;
 
@@ -43,7 +42,6 @@ public class ListaEncadeada {
         No<T> novoNo = new No<>(valor);
         if (inicio == null){
             novoNo.getProximo(this.inicio);
->>>>>>> aa9c8086db99784bba2193ef167d36e8dc660029
         }
         this.inicio = novoNo;
     }
